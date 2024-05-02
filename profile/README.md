@@ -23,8 +23,6 @@
     <a href="https://github.com/PoglyApp/pogly-standalone"><img src="https://img.shields.io/badge/built_with-CSharp-6C287D.svg?style=flat-square"></a>
     &nbsp;
     <a href="https://github.com/clockworklabs/spacetimedb"><img src="https://img.shields.io/badge/powered_by-SpacetimeDB-000000.svg?style=flat-square"></a>
-    &nbsp;
-    <a href="https://github.com/PoglyApp/pogly-standalone/blob/master/LICENSE.txt"><img src="https://img.shields.io/badge/license-tbd-50C878.svg?style=flat-square"></a>
 </p>
 
 <p align="center">
