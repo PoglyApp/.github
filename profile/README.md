@@ -1,9 +1,9 @@
 <p align="center">
     <a href="https://pogly.gg#gh-dark-mode-only" target="_blank">
-	<img width="128" src="./images/dark/Pog.png" alt="Pogly Logo">
+	<img width="128" src="images/dark/Pog.png" alt="Pogly Logo">
     </a>
     <a href="https://pogly.gg#gh-light-mode-only" target="_blank">
-	<img width="128" src="./images/light/Pog.png" alt="Pogly Logo">
+	<img width="128" src="images/light/Pog.png" alt="Pogly Logo">
     </a>
 </p>
 <p align="center">
