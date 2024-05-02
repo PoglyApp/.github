@@ -28,19 +28,19 @@
 </p>
 
 <p align="center">
-    <a href="#"><img height="25" src="./images/social/discord.svg" alt="Discord"></a>
+    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/discord.svg" alt="Discord"></a>
     &nbsp;
-    <a href="#"><img height="25" src="./images/social/twitter.svg" alt="Twitter"></a>
+    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/twitter.svg" alt="Twitter"></a>
     &nbsp;
-    <a href="https://github.com/PoglyApp/pogly-standalone"><img height="25" src="./images/social/github.svg" alt="Github"></a>
+    <a href="https://github.com/PoglyApp/pogly-standalone"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/github.svg" alt="Github"></a>
     &nbsp;
-    <a href="#"><img height="25" src="./images/social/twitch.svg" alt="Twitch"></a>
+    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/twitch.svg" alt="Twitch"></a>
     &nbsp;
-    <a href="#"><img height="25" src="./images/social/youtube.svg" alt="YouTube"></a>
+    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/youtube.svg" alt="YouTube"></a>
     &nbsp;
-    <a href="#"><img height="25" src="./images/social/linkedin.svg" alt="LinkedIn"></a>
+    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/linkedin.svg" alt="LinkedIn"></a>
     &nbsp;
-    <a href="https://stackoverflow.com/questions/tagged/poglygg"><img height="25" src="./images/social/stackoverflow.svg" alt="StackOverflow"></a>
+    <a href="https://stackoverflow.com/questions/tagged/poglygg"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/stackoverflow.svg" alt="StackOverflow"></a>
 </p>
 
 <br>
