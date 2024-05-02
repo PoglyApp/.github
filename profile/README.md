@@ -51,7 +51,7 @@ Pogly standalone at its core is an overlay tool for streamers.
 
 It allows the streamer to condense their cluttered OBS scene heirarchy into a single, powerful, overlay browser source. With a Pogly extensions, plug directly in to [StreamLabels](https://streamlabs.com/desktop-widgets/stream-labels), Spotify, Discord, and many other supported apps.
 
-In addition, Pogly standalone allows streamers to *hand off* the hassle of updating their overlays to trusted third parties, like their stream or discord moderators. These changes are can be made concurrently by multiple users and are applied realtime without any streamer interaction or need to refresh OBS sources.
+In addition, Pogly standalone allows streamers to *hand off* the hassle of updating their overlays to trusted third parties, like their stream or discord moderators. These changes can be made concurrently by multiple users and are applied real-time without any streamer interaction or need to refresh OBS sources.
 
 **\<example video/webm soon>**
 
@@ -61,7 +61,7 @@ Pogly Cloud is a managed offering of Pogly, where we handle the hosting, and sca
 
 This product offering will be available in two flavors: a free version with a feature parity to Pogly Standalone*, and a subscription-based premium version. The premium version, in addition to having unlimited storage space, will also come with other premium features not found in Pogly Standalone, such as: advanced editor permissions, streamer-safe AI image recognition, advanced image editing features, viewer/chat integration via Pogly bot and chat commands, etc. Subject to change.
 
-\* The free tier of Pogly Cloud will maintain feature parity with Pogly Standalone with the exception of storage. This hasn't been fully decided and is subject to change.
+\* The free tier of Pogly Cloud will maintain feature parity with Pogly Standalone except for storage. This hasn't been fully decided and is subject to change.
 
 ## More Information
 
