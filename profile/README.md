@@ -51,7 +51,7 @@ It allows the streamer to condense their cluttered OBS scene heirarchy into a si
 
 In addition, Pogly standalone allows streamers to *hand off* the hassle of updating their overlays to trusted third parties, like their stream or discord moderators. These changes can be made concurrently by multiple users and are applied real-time without any streamer interaction or need to refresh OBS sources.
 
-**\<example video/webm soon>**
+[example.webm](https://github.com/PoglyApp/.github/assets/36650721/5447c9fc-f63a-4264-b953-f9ac6372f70f)
 
 ## How does Cloud differ?
 
