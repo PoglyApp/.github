@@ -11,7 +11,7 @@
         <b>Pogly</b> Standalone & Cloud
     </h1>
     <h3 align="center">
-        Configurable multi-user overlay for streamers.
+        Real-time collaborative stream overlay.
     </h3>
 </p>
 
@@ -43,21 +43,23 @@
 
 <br>
 
-## What is [Pogly](https://pogly.gg) Standalone?
+## What is [Pogly](https://pogly.gg)?
 
-Pogly standalone at its core is an overlay tool for streamers.
+Pogly is a real-time collaborative stream overlay. Think Figma, but for your OBS overlay sources. 
 
-It allows the streamer to condense their cluttered OBS scene heirarchy into a single, powerful, overlay browser source. With a Pogly extensions, plug directly in to [StreamLabels](https://streamlabs.com/desktop-widgets/stream-labels), Spotify, Discord, and many other supported apps.
+With the power of Pogly, you can condense your cluttered OBS overlay sources into a single, powerful browser source overlay. But wait, how is that like Figma? [SpacetimeDB](https://spacetimedb.com) enables Pogly to communicate in real-time with multiple users; we call them Editors.
 
-In addition, Pogly standalone allows streamers to *hand off* the hassle of updating their overlays to trusted third parties, like their stream or discord moderators. These changes can be made concurrently by multiple users and are applied real-time without any streamer interaction or need to refresh OBS sources.
+Editors can add, edit, and delete overlay elements, with the changes being displayed in real-time on the stream. Why tab over to your OBS to update an overlay when you can have your moderators do it for you? Perhaps they add fun emojis or memes to encourage chat interaction? There are unlimited options with Pogly.
 
 [Demo.webm](https://github.com/PoglyApp/.github/assets/36650721/b8165015-b016-448c-8ad9-9226730dfb6f)
 
-## How does Cloud differ?
+## What are the Standalone and Cloud versions?
 
-Pogly Cloud is a managed offering of Pogly, where we handle the hosting, and scaling of your Pogly Standalone instance.
+Pogly *Standalone* is the open-source, self-hosted version of Pogly. We provide the code, instructions, some technical support in our Discord- but the rest is up to you.
 
-This product offering will be available in two flavors: a free version with a feature parity to Pogly Standalone*, and a subscription-based premium version. The premium version, in addition to having unlimited storage space, will also come with other premium features not found in Pogly Standalone, such as: advanced editor permissions, streamer-safe AI image recognition, advanced image editing features, viewer/chat integration via Pogly bot and chat commands, etc. Subject to change.
+Pogly *Cloud* is a managed offering of Pogly, where we handle the hosting, and scaling of your Pogly Standalone instance.
+
+Cloud will be available in two flavors: a free version with a feature parity to Pogly Standalone*, and a subscription-based premium version. The premium version, in addition to having unlimited storage space, will also come with other premium features not found in Pogly Standalone, such as: advanced editor permissions, streamer-safe AI image recognition, advanced image editing features, viewer/chat integration via Pogly bot and chat commands, etc. Subject to change.
 
 \* The free tier of Pogly Cloud will maintain feature parity with Pogly Standalone except for storage. This hasn't been fully decided and is subject to change.
 
