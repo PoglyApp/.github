@@ -16,29 +16,23 @@
 </p>
 
 <p align="center">
-    <!-- <a href="https://github.com/PoglyApp/pogly-standalone"><img src="https://img.shields.io/github/v/release/PoglyApp/pogly-standalone?color=%23ff00a0&include_prereleases&label=version&sort=semver&style=flat-square"></a>
-    &nbsp; -->
-    <a href="https://github.com/microsoft/TypeScript"><img src="https://img.shields.io/badge/built_with-TypeScript-2F74C0.svg?style=flat-square"></a>
+    <a href="https://github.com/microsoft/TypeScript"><img src="https://img.shields.io/badge/built_with-TypeScript-2F74C0.svg?style=flat-square"><img src="https://img.shields.io/badge/CSharp-6C287D.svg?style=flat-square" /></a>
     &nbsp;
-    <a href="https://github.com/PoglyApp/pogly-standalone"><img src="https://img.shields.io/badge/built_with-CSharp-6C287D.svg?style=flat-square"></a>
+    <a href="https://github.com/clockworklabs/spacetimedb"><img src="https://img.shields.io/badge/powered_by-SpacetimeDB-000000.svg?style=flat-square" /></a>
     &nbsp;
-    <a href="https://github.com/clockworklabs/spacetimedb"><img src="https://img.shields.io/badge/powered_by-SpacetimeDB-000000.svg?style=flat-square"></a>
+	<img src="https://img.shields.io/badge/version-v0.1.0_beta-9f9f9f.svg?style=flat-square" />
+    &nbsp;
+    <a href="https://github.com/PoglyApp/pogly-standalone/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-50C878.svg?style=flat-square" /></a>
 </p>
 
 <p align="center">
-    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/discord.svg" alt="Discord"></a>
+    <a href="https://discord.gg/CXCj2TGS6b"><img height="25" src="./images/social/discord.svg" alt="Discord" /></a>
     &nbsp;
-    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/twitter.svg" alt="Twitter"></a>
+    <a href="https://www.twitch.tv/poglygg"><img height="25" src="./images/social/twitch.svg" alt="Twitch" /></a>
     &nbsp;
-    <a href="https://github.com/PoglyApp/pogly-standalone"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/github.svg" alt="Github"></a>
+    <a href="https://www.youtube.com/watch?v=c19tKRKa2ik"><img height="25" src="./images/social/youtube.svg" alt="YouTube" /></a>
     &nbsp;
-    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/twitch.svg" alt="Twitch"></a>
-    &nbsp;
-    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/youtube.svg" alt="YouTube"></a>
-    &nbsp;
-    <a href="#"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/linkedin.svg" alt="LinkedIn"></a>
-    &nbsp;
-    <a href="https://stackoverflow.com/questions/tagged/poglygg"><img height="25" src="https://github.com/PoglyApp/.github/blob/main/profile/images/social/stackoverflow.svg" alt="StackOverflow"></a>
+    <a href="https://x.com/PoglyApp"><img height="25" src="./images/social/twitter.svg" alt="Twitter" /></a>
 </p>
 
 <br>
