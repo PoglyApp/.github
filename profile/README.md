@@ -60,19 +60,19 @@ Please click on the feature you'd like to learn more about.
 - Realtime state sync between all connected clients
 - Self-host or use SpacetimeDB's free test environment (Testnet)
 - Canvas Elements
-    - [Text Elements](./textElement.md) - Text, Font, Size and Color configurable
-    - [Image Elements](./imageElement.md) - File upload or URL
-    - [Widget Elements](./widgetElement.md) - Fully customizeable HTML widget, allows for CSS and Javascript
+    - [Text Elements](https://github.com/PoglyApp/pogly-documentation/blob/main/use/textElement.md) - Text, Font, Size and Color configurable
+    - [Image Elements](https://github.com/PoglyApp/pogly-documentation/blob/main/use/imageElement.md) - File upload or URL
+    - [Widget Elements](https://github.com/PoglyApp/pogly-documentation/blob/main/use/widgetElement.md) - Fully customizeable HTML widget, allows for CSS and Javascript
     - 7TV Channel Emotes - Automatically pull the streamers 7TV emotes for use as an Image Element
-- [Context menu](./contextMenu.md) for modifying Canvas Elements
+- [Context menu](https://github.com/PoglyApp/pogly-documentation/blob/main/use/contextMenu.md) for modifying Canvas Elements
 - OBS/streamlabs Browser Source overlay compatibility
 - Full support for Firefox & Chromium based browsers
 - Stream preview on editor canvas
 - Configurable Guest nicknames
 - Instance configuration
-    - [Authentication](./authentication.md)
-    - [Refresh rate](./refreshRate.md)
-    - [Strict Mode](./strictMode.md) - User based permissions
+    - [Authentication](https://github.com/PoglyApp/pogly-documentation/blob/main/use/authentication.md)
+    - [Refresh rate](https://github.com/PoglyApp/pogly-documentation/blob/main/use/refreshRate.md)
+    - [Strict Mode](https://github.com/PoglyApp/pogly-documentation/blob/main/use/strictMode.md) - User based permissions
     - Various debug modes for developers
 - Export/Import all Canvas Elements
 
@@ -82,7 +82,7 @@ Please click on the feature you'd like to learn more about.
     - Inspect an element to see audit log for that particular element, or
     - View the general audit log to see all changes, and filter as needed
 - Chat - simple in-browser chat for editors to collaborate and discuss
-- Advanced permissions - currently [Strict Mode](./strictMode.md) features only one permission level.
+- Advanced permissions - currently [Strict Mode](https://github.com/PoglyApp/pogly-documentation/blob/main/use/strictMode.md) features only one permission level.
 - Image compression to help with load times
 - Additional element types (text effects and others)
 - Direct paste image onto canvas without adding
