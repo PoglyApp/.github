@@ -84,7 +84,7 @@ Please click on the feature you'd like to learn more about.
 ### Planned
 - tbd ^_^
 
-Pop by our [Discord](https://discord.gg/uPQsBaVdB7) and ask some!
+If you have any questions or concerns, pop by our [Discord](https://discord.gg/uPQsBaVdB7) and ask!
 
 ## What are the Standalone and Cloud versions?
 
