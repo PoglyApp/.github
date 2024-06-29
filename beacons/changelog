@@ -1,11 +1,16 @@
 {
-    "_readme": [
-      "This file contains the raw changelog data which will be used to generate CHANGELOG.md as well as display changes on the client",
-      "Please keep changelog formatting to this example, otherwise something will most definitely break on the client"
-      ],
-    "0.1.0": [
-      "initial commit",
-      "example change",
-      "another example change"
-      ] 
-  }
+  "_readme": [
+      "This file contains the raw changelog data which will be used to generate CHANGELOG.md as well as display changes in the client.",
+      "Please keep changelog formatting consistent with this example format, otherwise something will most definitely break."
+    ],
+  "changes": [
+      {
+        "version": "0.1.0",
+        "log": [
+            "a change",
+            "another change",
+            "so many changes"
+          ]
+      }
+    ]
+}
