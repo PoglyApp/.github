@@ -7,9 +7,18 @@
       {
         "version": "0.1.0",
         "log": [
-            "a change",
-            "another change",
-            "so many changes"
+            {
+              "title": "Change 1",
+              "description": "This was a change that did XYZ"
+            },
+            {
+              "title": "Change 2",
+              "description": "This was a change that did ABC"
+            },
+            {
+              "title": "Change 3",
+              "description": "This was a change that did 123"
+            },
           ]
       }
     ]
