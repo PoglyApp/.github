@@ -1,25 +1,42 @@
 {
-  "_readme": [
-      "This file contains the raw changelog data which will be used to generate CHANGELOG.md as well as display changes in the client.",
-      "Please keep changelog formatting consistent with this example format, otherwise something will most definitely break."
+    "_readme": [
+        "This file contains the raw changelog data which will be used to generate CHANGELOG.md as well as display changes in the client.",
+        "Please keep changelog formatting consistent with this example format, otherwise something will most definitely break."
     ],
-  "changes": [
-      {
-        "version": "0.1.0",
-        "log": [
-            {
-              "title": "Change 1",
-              "description": "This was a change that did XYZ!"
-            },
-            {
-              "title": "Change 2",
-              "description": "This was a change that did ABC!!"
-            },
-            {
-              "title": "Change 3",
-              "description": "This was a change that did 123!!!"
-            }
-          ]
-      }
+    "changes": [
+        {
+            "version": "0.1.0",
+            "log": [
+                {
+                    "title": "Change 1",
+                    "description": "This was a change that did XYZ!"
+                },
+                {
+                    "title": "Change 2",
+                    "description": "This was a change that did ABC!!"
+                },
+                {
+                    "title": "Change 3",
+                    "description": "This was a change that did 123!!!"
+                }
+            ]
+        },
+        {
+            "version": "0.1.1",
+            "log": [
+                {
+                    "title": "Change 1",
+                    "description": "This was a change that did XYZ!"
+                },
+                {
+                    "title": "Change 2",
+                    "description": "This was a change that did ABC!!"
+                },
+                {
+                    "title": "Change 3",
+                    "description": "This was a change that did 123!!!"
+                }
+            ]
+        }
     ]
 }
