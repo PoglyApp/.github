@@ -8,81 +8,68 @@
             "version": "0.1.0",
             "log": [
                 {
-                    "title": "Change 1",
-                    "description": "This was a change that did XYZ!"
+                    "title": "Initial Release!",
+                    "description": "Pogly standalone v0.1.0 has been published to Github! 🎉"
                 },
                 {
-                    "title": "Change 2",
-                    "description": "This was a change that did ABC!!"
+                    "title": "Text Elements",
+                    "description": "Adjust text, font, fontsize and color! Live updating when editing an existing text element is a default option."
                 },
                 {
-                    "title": "Change 3",
-                    "description": "This was a change that did XYZ!"
+                    "title": "Image Elements",
+                    "description": "Upload or provide a URL to a supported image type and you will be able to drag/resize/rotate the element all across the screen."
                 },
                 {
-                    "title": "Change 4",
-                    "description": "This was a change that did ABC!!"
+                    "title": "7TV Channel Emotes",
+                    "description": "Pogly automagically imports 7TV channel emote for Twitch configurations. No need to upload your favorite emote if it exists in 7tv!"
                 },
                 {
-                    "title": "Change 5",
-                    "description": "This was a change that did XYZ!"
+                    "title": "Tenor Gifs",
+                    "description": "Provide a tenor v2 API key in the settings panel and get access to millions of animated gifs via the tenor API."
                 },
                 {
-                    "title": "Change 6",
-                    "description": "This was a change that did ABC!!"
+                    "title": "Widget Elements",
+                    "description": "Our most advanced canvas element. Build any feature you can dream up with widgets; utilize css, html and javascript to make it happen. Import or export widgets and be sure to share your creations in our discord."
                 },
                 {
-                    "title": "Change 7",
-                    "description": "This was a change that did XYZ!"
+                    "title": "Context Menu",
+                    "description": "Canvas Elements context menu with many quick-access properties and features needed for transforming your Text/Image/Widget element."
                 },
                 {
-                    "title": "Change 8",
-                    "description": "This was a change that did ABC!!"
+                    "title": "Realtime State Sync",
+                    "description": "Thanks to SpacetimeDB, Pogly Standalone can support dozens of editors at once. Enjoy editing the canvas collaboratively!"
                 },
                 {
-                    "title": "Change 9",
-                    "description": "This was a change that did 123!!!"
-                }
-            ]
-        },
-        {
-            "version": "0.1.1",
-            "log": [
-                {
-                    "title": "Change 1",
-                    "description": "This was a change that did XYZ!"
+                    "title": "Editor Mouse Position",
+                    "description": "Realtime editor mouse position enables collaboration and teamwork by seeing where other editors are looking and what they are interacting with. Coordinate your moves to interact with the stream simultaneously!"
                 },
                 {
-                    "title": "Change 2",
-                    "description": "This was a change that did ABC!!"
+                    "title": "Authentication",
+                    "description": "Password protect your instance so that only those you invite can access. Pick a strong, yet memorable password. The owner can always change this in the settings later."
                 },
                 {
-                    "title": "Change 3",
-                    "description": "This was a change that did XYZ!"
+                    "title": "Strict Mode",
+                    "description": "Authentication not enough? Lock down permissions further with Strict Mode. Prevents users from uploading new images unless they have a specific role, assigned by the owner."
                 },
                 {
-                    "title": "Change 4",
-                    "description": "This was a change that did ABC!!"
+                    "title": "ElementData Import/Export",
+                    "description": "You worked hard importing all of your images. Keep them safe by downloading your element data in the settings panel. Moving instances? Simply upload your downloaded element data to copy your instance data."
                 },
                 {
-                    "title": "Change 5",
-                    "description": "This was a change that did XYZ!"
+                    "title": "Mainstream browser support",
+                    "description": "Chrome/Chromium, Firefox, Safari, Edge. If you venture too far into the obscure, we can't guarantee support for this build. Javascript enabled is a requirement."
                 },
                 {
-                    "title": "Change 6",
-                    "description": "This was a change that did ABC!!"
+                    "title": "OBS/Streamlabs compatibility",
+                    "description": "Use a browser source, punch in the stream URL, configure css and you're all set! See the docs to get set up."
                 },
                 {
-                    "title": "Change 7",
-                    "description": "This was a change that did XYZ!"
+                    "title": "Multi-Platform",
+                    "description": "Pogly works with Twitch, Youtube and Kick- with more services to come."
                 },
                 {
-                    "title": "Change 8",
-                    "description": "This was a change that did ABC!!"
-                },
-                {
-                    "title": "Change 9",
-                    "description": "This was a change that did 123!!!"
+                    "title": "Linux, MacOS- no problem!",
+                    "description": "Pogly's SpacetimeDB module can be built on any operating system and there are Windows, Linux and MacOS builds of the spacetime CLI available."
                 }
             ]
         }
