@@ -1,5 +1,5 @@
 {
   "_readme": "This is for the purpose of showing notices to all Pogly instances under the pogly.gg domain.",
-  "id": "releasenotice",
-  "notice": "Breaking changes will be applied to all pogly.gg instances June 30th. Please back up your elements via the settings menu before then!"
+  "id": "releasenoticereminder",
+  "notice": "0.1.0 patch is being applied in an hour! Export your element data from settings if you have yet to do it."
 }
