@@ -1,5 +1,5 @@
 {
   "_readme": "This is for the purpose of showing notices to all Pogly instances under the pogly.gg domain.",
-  "id": "breaking_stdb_changes_8_7_2024",
-  "notice": "If you are using a module created by PoglyApp or using SpacetimeDB testnet to host your module, backup your element data ASAP as SpacetimeDB will be receiving breaking changes!"
+  "id": "",
+  "notice": ""
 }
