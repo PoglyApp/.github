@@ -1,77 +1,110 @@
 {
-    "_readme": [
-        "This file contains the raw changelog data which will be used to generate CHANGELOG.md as well as display changes in the client.",
-        "Please keep changelog formatting consistent with this example format, otherwise something will most definitely break."
-    ],
-    "changes": [
+  "_readme": [
+    "This file contains the raw changelog data which will be used to generate CHANGELOG.md as well as display changes in the client.",
+    "Please keep changelog formatting consistent with this example format, otherwise something will most definitely break."
+  ],
+  "changes": [
+    {
+      "version": "0.1.0",
+      "log": [
         {
-            "version": "0.1.0",
-            "log": [
-                {
-                    "title": "Initial Release!",
-                    "description": "Pogly standalone v0.1.0 has been published to Github! 🎉"
-                },
-                {
-                    "title": "Text Elements",
-                    "description": "Adjust text, font, fontsize and color! Live updating when editing an existing text element is a default option."
-                },
-                {
-                    "title": "Image Elements",
-                    "description": "Upload or provide a URL to a supported image type and you will be able to drag/resize/rotate the element all across the screen."
-                },
-                {
-                    "title": "7TV Channel Emotes",
-                    "description": "Pogly automagically imports 7TV channel emote for Twitch configurations. No need to upload your favorite emote if it exists in 7tv!"
-                },
-                {
-                    "title": "Tenor Gifs",
-                    "description": "Provide a tenor v2 API key in the settings panel and get access to millions of animated gifs via the tenor API."
-                },
-                {
-                    "title": "Widget Elements",
-                    "description": "Our most advanced canvas element. Build any feature you can dream up with widgets; utilize css, html and javascript to make it happen. Import or export widgets and be sure to share your creations in our discord."
-                },
-                {
-                    "title": "Context Menu",
-                    "description": "Canvas Elements context menu with many quick-access properties and features needed for transforming your Text/Image/Widget element."
-                },
-                {
-                    "title": "Realtime State Sync",
-                    "description": "Thanks to SpacetimeDB, Pogly Standalone can support dozens of editors at once. Enjoy editing the canvas collaboratively!"
-                },
-                {
-                    "title": "Editor Mouse Position",
-                    "description": "Realtime editor mouse position enables collaboration and teamwork by seeing where other editors are looking and what they are interacting with. Coordinate your moves to interact with the stream simultaneously!"
-                },
-                {
-                    "title": "Authentication",
-                    "description": "Password protect your instance so that only those you invite can access. Pick a strong, yet memorable password. The owner can always change this in the settings later."
-                },
-                {
-                    "title": "Strict Mode",
-                    "description": "Authentication not enough? Lock down permissions further with Strict Mode. Prevents users from uploading new images unless they have a specific role, assigned by the owner."
-                },
-                {
-                    "title": "ElementData Import/Export",
-                    "description": "You worked hard importing all of your images. Keep them safe by downloading your element data in the settings panel. Moving instances? Simply upload your downloaded element data to copy your instance data."
-                },
-                {
-                    "title": "Mainstream browser support",
-                    "description": "Chrome/Chromium, Firefox, Safari, Edge. If you venture too far into the obscure, we can't guarantee support for this build. Javascript enabled is a requirement."
-                },
-                {
-                    "title": "OBS/Streamlabs compatibility",
-                    "description": "Use a browser source, punch in the stream URL, configure css and you're all set! See the docs to get set up."
-                },
-                {
-                    "title": "Multi-Platform",
-                    "description": "Pogly works with Twitch, Youtube and Kick- with more services to come."
-                },
-                {
-                    "title": "Linux, MacOS- no problem!",
-                    "description": "Pogly's SpacetimeDB module can be built on any operating system and there are Windows, Linux and MacOS builds of the spacetime CLI available."
-                }
-            ]
+          "title": "Initial Release!",
+          "description": "Pogly standalone v0.1.0 has been published to Github! 🎉"
+        },
+        {
+          "title": "Text Elements",
+          "description": "Adjust text, font, fontsize and color! Live updating when editing an existing text element is a default option."
+        },
+        {
+          "title": "Image Elements",
+          "description": "Upload or provide a URL to a supported image type and you will be able to drag/resize/rotate the element all across the screen."
+        },
+        {
+          "title": "7TV Channel Emotes",
+          "description": "Pogly automagically imports 7TV channel emote for Twitch configurations. No need to upload your favorite emote if it exists in 7tv!"
+        },
+        {
+          "title": "Tenor Gifs",
+          "description": "Provide a tenor v2 API key in the settings panel and get access to millions of animated gifs via the tenor API."
+        },
+        {
+          "title": "Widget Elements",
+          "description": "Our most advanced canvas element. Build any feature you can dream up with widgets; utilize css, html and javascript to make it happen. Import or export widgets and be sure to share your creations in our discord."
+        },
+        {
+          "title": "Context Menu",
+          "description": "Canvas Elements context menu with many quick-access properties and features needed for transforming your Text/Image/Widget element."
+        },
+        {
+          "title": "Realtime State Sync",
+          "description": "Thanks to SpacetimeDB, Pogly Standalone can support dozens of editors at once. Enjoy editing the canvas collaboratively!"
+        },
+        {
+          "title": "Editor Mouse Position",
+          "description": "Realtime editor mouse position enables collaboration and teamwork by seeing where other editors are looking and what they are interacting with. Coordinate your moves to interact with the stream simultaneously!"
+        },
+        {
+          "title": "Authentication",
+          "description": "Password protect your instance so that only those you invite can access. Pick a strong, yet memorable password. The owner can always change this in the settings later."
+        },
+        {
+          "title": "Strict Mode",
+          "description": "Authentication not enough? Lock down permissions further with Strict Mode. Prevents users from uploading new images unless they have a specific role, assigned by the owner."
+        },
+        {
+          "title": "ElementData Import/Export",
+          "description": "You worked hard importing all of your images. Keep them safe by downloading your element data in the settings panel. Moving instances? Simply upload your downloaded element data to copy your instance data."
+        },
+        {
+          "title": "Mainstream browser support",
+          "description": "Chrome/Chromium, Firefox, Safari, Edge. If you venture too far into the obscure, we can't guarantee support for this build. Javascript enabled is a requirement."
+        },
+        {
+          "title": "OBS/Streamlabs compatibility",
+          "description": "Use a browser source, punch in the stream URL, configure css and you're all set! See the docs to get set up."
+        },
+        {
+          "title": "Multi-Platform",
+          "description": "Pogly works with Twitch, Youtube and Kick- with more services to come."
+        },
+        {
+          "title": "Linux, MacOS- no problem!",
+          "description": "Pogly's SpacetimeDB module can be built on any operating system and there are Windows, Linux and MacOS builds of the spacetime CLI available."
         }
-    ]
+      ]
+    },
+    {
+      "version": "0.1.1",
+      "log": [
+        {
+          "title": "Layouts",
+          "description": "Layouts are a great way to keep your Pogly instance organized. Think of them as your OBS scenes, but within Pogly. Check the Documentation for more information on how to use Layouts!"
+        },
+        {
+          "title": "Link to documentation",
+          "description": "Added a direct link to Pogly documentation to element selection menu footer. (Find layout documentation there 😉)"
+        },
+        {
+          "title": "Log out button",
+          "description": "You can now log out from your Pogly instance with the log out button in element selection menu footer."
+        },
+        {
+          "title": "Element names aligned weirdly",
+          "description": "Fixed an issue where element names weren't always aligned properly."
+        },
+        {
+          "title": "Better multi selection trigger prevention in element selection menu",
+          "description": "Added better checks to prevent multi select from triggering when trying to click things in the element selection menu."
+        },
+        {
+          "title": "No more special characters in authentication keys",
+          "description": "Special characters are no longer allowed in authentication keys because it prevented access to overlay. Better fix for this will be added in the future, allowing special characters again."
+        },
+        {
+          "title": "Better random disconnection handling",
+          "description": "If you somehow disconnect by some odd means, you are now forced to refresh instead of remaining ghost connected."
+        }
+      ]
+    }
+  ]
 }
