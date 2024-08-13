@@ -103,6 +103,10 @@
         {
           "title": "Better random disconnection handling",
           "description": "If you somehow disconnect by some odd means, you are now forced to refresh instead of remaining ghost connected."
+        },
+        {
+          "title": "CSS Tweaks",
+          "description": "There have been a handful of CSS improvements to Pogly throughout the canvas and menus."
         }
       ]
     }
