@@ -89,6 +89,10 @@
           "description": "You can now log out from your Pogly instance with the log out button in element selection menu footer."
         },
         {
+          "title": "Force refresh the overlay",
+          "description": "Editors can now force the overlay to refresh through the debug menu. You can access the debug menu by enabling debug mode in the settings."
+        },
+        {
           "title": "Element names aligned weirdly",
           "description": "Fixed an issue where element names weren't always aligned properly."
         },
