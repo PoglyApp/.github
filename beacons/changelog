@@ -113,6 +113,67 @@
           "description": "There have been a handful of CSS improvements to Pogly throughout the canvas and menus."
         }
       ]
+    },
+    {
+      "version": "0.1.2",
+      "log": [
+        {
+          "title": "Keyboard shortcuts",
+          "description": "You can now more easily interact with the editor using familiar keyboard shortcuts. You can read more about them under User Input documentation."
+        },
+        {
+          "title": "Copy pasting content on to the canvas",
+          "description": "Added support to paste images and text directly onto the canvas with ctrl + v. This supports pasting image data, an image URL, or text."
+        },
+        {
+          "title": "Drag and drop upload",
+          "description": "Added the ability to drag and drop images directly to element selection menu to upload them."
+        },
+        {
+          "title": "Image upload indicator",
+          "description": "Added a visual indicator that an image is being uploaded."
+        },
+        {
+          "title": "Widget color picker variable",
+          "description": "Added color variable to widgets, allowing for easier color selection."
+        },
+        {
+          "title": "Text creation color picker",
+          "description": "Added color picker to text creation for easier color selection."
+        },
+        {
+          "title": "Custom fonts",
+          "description": "Added custom font option to text creation. Font URL has to be a direct cdn link, I.E https://fonts.cdnfonts.com/css/morpheus."
+        },
+        {
+          "title": "Better TTV integration",
+          "description": "If channel has BTTV emotes, they are now available under the Channel Emotes tab. (Note: Currently, bttv emotes rely on the streamer having a 7tv account. If they do not, the streamer must oauth on 7tv with their Twitch before being able to use bttv emotes. This is due to API workarounds we're relying on for the time being.)"
+        },
+        {
+          "title": "Kick guests",
+          "description": "Added functionality for the Owner of an instance to Kick Guests. This is useful if a Guest gets stuck online and you need to boot them off for troubleshooting."
+        },
+        {
+          "title": "While ( Don't! ) {}",
+          "description": "Added a warning about while loops if widget script contains the term 'while'. (This is for your own good)"
+        },
+        {
+          "title": "Bug fixes",
+          "description": "Fixed an issue with widgets, causing edit modal not to always appear when it's supposed to."
+        },
+        {
+          "title": "",
+          "description": "Fixed an issue with element transparency causing a crash"
+        },
+        {
+          "title": "",
+          "description": "Fixed an issue with element's data ID being absurdly high, possibly causing weird issues."
+        },
+        {
+          "title": "",
+          "description": "Fixed an issue where text element would automatically re-align when it's being updated with auto update on."
+        }
+      ]
     }
   ]
 }
