@@ -1,5 +1,5 @@
 {
   "_readme": "This is for the purpose of showing notices to all Pogly instances under the pogly.gg domain.",
-  "id": "",
-  "notice": ""
+  "id": "testnet_wipe_1_10_2024",
+  "notice": "Testnet will be wiped later today. If your module is using testnet, MAKE SURE YOU BACKUP YOUR DATA FROM THE SETTINGS WINDOW!"
 }
