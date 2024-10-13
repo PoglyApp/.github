@@ -285,6 +285,10 @@
         },
         {
           "title": "",
+          "description": "Fixed issues with importing Pogly data to a module."
+        },
+        {
+          "title": "",
           "description": "Other minor fixes."
         }
       ]
