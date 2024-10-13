@@ -215,6 +215,79 @@
           "description": "Fixed a bug causing image nudging (arrow keys) to misalign element position on the canvas vs on overlay."
         }
       ]
+    },
+    {
+      "version": "0.2.0",
+      "log": [
+        {
+          "title": "Text element rework",
+          "description": "Text creation has been overhauled, text now supports markdown, added support for text shadows and outlines, added option for custom css."
+        },
+        {
+          "title": "Multiple Pogly instances in same browser",
+          "description": "You can now have multiple instances of Pogly open in the same browser."
+        },
+        {
+          "title": "Self-kick",
+          "description": "Added an option to self-kick from Guest list bubble."
+        },
+        {
+          "title": "Authentication improvements",
+          "description": "Improved Authentication reliability in preparation for SpacetimeDB v1.0."
+        },
+        {
+          "title": "Pogly Overlay css tweaks",
+          "description": "Tweaked Overlay page so default OBS css works, meaning the step to add css in the browser source is no longer required."
+        },
+        {
+          "title": "Overlay element bounds",
+          "description": "Added rendering bounds for Overlay, improves performance when many elements on canvas."
+        },
+        {
+          "title": "Image storage optimizations",
+          "description": "Reworked image storage, saving 25% file size and network cost."
+        },
+        {
+          "title": "Copy Overlay URL",
+          "description": "Added 'Copy Overlay URL' option to advanced settings menu."
+        },
+        {
+          "title": "Editor guidelines",
+          "description": "Instance owner can now set editor guidelines that the editors are required to accept when connecting for the first time."
+        },
+        {
+          "title": "Canvas improvements",
+          "description": "You can now move the camera with WASD keys, removed canvas scaling - stream preview is now 1080p zoomed out vs 240p zoomed in, canvas is now infinite."
+        },
+        {
+          "title": "Widget rendering rework",
+          "description": "Reworked how widgets are rendered so audio can be autoplayed on Chrome."
+        },
+        {
+          "title": "Re-center to the stream",
+          "description": "Added hotkey 'Home' to re-center the camera on to the stream, in case you get lost in the infinite canvas."
+        },
+        {
+          "title": "Quick swap modules",
+          "description": "Canvas header now has a 'Swap modules' menu, which lets you easily change to a remembered module without the need to log out first."
+        },
+        {
+          "title": "Bug fixes",
+          "description": "Fixed transparency value not showing correctly when set to 0."
+        },
+        {
+          "title": "",
+          "description": "Fixes bug with multiple OBS browser source instances disconnecting."
+        },
+        {
+          "title": "",
+          "description": "Fixed issue where widgets became randomly interactable."
+        },
+        {
+          "title": "",
+          "description": "Other minor fixes."
+        }
+      ]
     }
   ]
 }
