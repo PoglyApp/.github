@@ -280,6 +280,10 @@
           "description": "Canvas header now has a 'Swap modules' menu, which lets you easily change to a remembered module without the need to log out first."
         },
         {
+          "title": "Owner tab in settings",
+          "description": "Module owner can now edit all module settings after the module has been initialized without the need to wipe the module first."
+        },
+        {
           "title": "Bug fixes",
           "description": "Fixed transparency value not showing correctly when set to 0."
         },
