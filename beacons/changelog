@@ -232,6 +232,14 @@
           "description": "Added an option to self-kick from Guest list bubble."
         },
         {
+          "title": "Image name in details",
+          "description": "Image details now shows image name when available."
+        },
+        {
+          "title": "Guest cursors",
+          "description": "Guest cursors are now only shown when same layout is selected."
+        },
+        {
           "title": "Authentication improvements",
           "description": "Improved Authentication reliability in preparation for SpacetimeDB v1.0."
         },
