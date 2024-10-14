@@ -1,5 +1,5 @@
 {
   "_readme": "This is for the purpose of showing notices to all Pogly instances under the pogly.gg domain.",
-  "id": "0.2.0_release_backup_notice",
-  "notice": "Pogly v0.2.0 will be released in a day or two! If you use a Pogly Cloud module, please backup your data from the settings menu ASAP! Self-hosters using the Pogly web portal will be required to update their modules as well!"
+  "id": "",
+  "notice": ""
 }
