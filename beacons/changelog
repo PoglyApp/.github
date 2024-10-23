@@ -304,6 +304,51 @@
           "description": "Other minor fixes."
         }
       ]
+    },
+    {
+      "version": "0.2.1",
+      "log": [
+        {
+          "title": "Spotlight search",
+          "description": "You can now search images and channel emotes quickly with ctrl + space and ctrl + k hotkeys."
+        },
+        {
+          "title": "Hide elements more quickly",
+          "description": "Added a show/hide button in element context menu."
+        },
+        {
+          "title": "Layout improvements",
+          "description": "Added an option to clone and rename layouts."
+        },
+        {
+          "title": "Widget improvements",
+          "description": "Added 3 system variables: {is_overlay}, {widget_width}, {widget_height} and a new image variable type."
+        },
+        {
+          "title": "Tenor API key",
+          "description": "Re-added a direct link to Tenor API key guide in settings menu."
+        },
+        {
+          "title": "Strict mode UX",
+          "description": "Added various missing strict mode symbols around the UI."
+        },
+        {
+          "title": "Bug fixes",
+          "description": "Fixed strikethrough in markdown editor."
+        },
+        {
+          "title": "",
+          "description": "Fixed transparency value not showing properly. (again)"
+        },
+        {
+          "title": "",
+          "description": "Fixed SevenTV emotes not working due to API changes."
+        },
+        {
+          "title": "",
+          "description": "Fixed widget import failing if widget code is uriencoded."
+        }
+      ]
     }
   ]
 }
