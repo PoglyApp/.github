@@ -349,6 +349,51 @@
           "description": "Fixed widget import failing if widget code is uriencoded."
         }
       ]
+    },
+    {
+      "version": "0.2.2",
+      "log": [
+        {
+          "title": "URL as default upload type",
+          "description": "Added an option to change default image upload type to URL in settings menu."
+        },
+        {
+          "title": "Override stream content",
+          "description": "Added an option to locally override stream embed to something else in settings menu."
+        },
+        {
+          "title": "Hiding grouped elements",
+          "description": "Added an ability to hide grouped elements with pageup and pagedown hotkeys."
+        },
+        {
+          "title": "Module nicknames",
+          "description": "Added an option to set local nicknames for modules by right clicking them in quick swap menu."
+        },
+        {
+          "title": "Moderator list",
+          "description": "Added a moderator list to Owner tab in settings menu which allows removal of offline moderators."
+        },
+        {
+          "title": "Proper error page",
+          "description": "Added a proper error page for better viewing experience."
+        },
+        {
+          "title": "Update element image source",
+          "description": "Added an option to change pre-existing element's image source in context menu."
+        },
+        {
+          "title": "Global 7TV emotes",
+          "description": "Global 7TV emotes are now available in Channel Emotes tab regardless of if the channel has any 7TV emotes."
+        },
+        {
+          "title": "Bug fixes",
+          "description": "Fixed an issue where elements sometimes looked blurry due to position calculations."
+        },
+        {
+          "title": "",
+          "description": "Fixed flipped image rotation being opposite in overlay."
+        }
+      ]
     }
   ]
 }
