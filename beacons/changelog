@@ -394,6 +394,75 @@
           "description": "Fixed flipped image rotation being opposite in overlay."
         }
       ]
+    },
+    {
+      "version": "0.3.0",
+      "log": [
+        {
+          "title": "NOTICE! Server migration",
+          "description": "With this update, we are moving servers! Due to the size and complexity of this update, your module will not be auto migrated! Please read the migration guide on Github or our Discord."
+        },
+        {
+          "title": "",
+          "description": "These patch notes include user requested features that were done without indivitual announcements or version number bumping."
+        },
+        {
+          "title": "Login rewrite",
+          "description": "Login page complete rewrite and redesign."
+        },
+        {
+          "title": "Authentication rewrite",
+          "description": "Introduced OIDC authentication through SpacetimeAuth. You can now use Twitch, KICK or Google to authenticate."
+        },
+        {
+          "title": "Permanent identities",
+          "description": "Identities are now permanent when authenticating using Twitch, KICK or Google. No more losing module ownership randomly!"
+        },
+        {
+          "title": "Module quickswap QOL",
+          "description": "Module quickswaps can now be saved and used in login screen."
+        },
+        {
+          "title": "New module onboarding",
+          "description": "When initializing a new module, there is a proper onboarding flow explaining what each setting does, making the process clearer for new users."
+        },
+        {
+          "title": "Element clipping and warping",
+          "description": "You can now clip or warp elements by right clicking an element and Edit ➔ Scale/Clip/Warp or using SHIFT + S/C/W hotkeys."
+        },
+        {
+          "title": "Disabling text markdown",
+          "description": "Added URL parameter to disable markdown. (&nomarkdown=true)"
+        },
+        {
+          "title": "Loading screen QOL",
+          "description": "Added logout button to loading screen."
+        },
+        {
+          "title": "Chrome users screwed over by Twitch",
+          "description": "Added notification to alert that stream preview cannot be autoplayed due to new Twitch embed rules."
+        },
+        {
+          "title": "Layout specific overlay URLs",
+          "description": "You can now directly copy the overlay URL for specific layout by right clicking the layout in editor."
+        },
+        {
+          "title": "7TV emote improvements",
+          "description": "Added 7TV channel override in settings. Also fixed some 7TV related issues."
+        },
+        {
+          "title": "Permissions overhaul",
+          "description": "Overhauled permissions under the hood for up coming permissions rework."
+        },
+        {
+          "title": "Bot development QOL",
+          "description": "Added Elements and ElementData IDs to examine context menu boxes."
+        },
+        {
+          "title": "Bug fixes",
+          "description": "Fixed various user reported bugs and issues."
+        }
+      ]
     }
   ]
 }
