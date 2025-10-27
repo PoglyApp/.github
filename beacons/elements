@@ -1,120 +1,79 @@
 [
-   {
-      "id":1,
-      "name":"Pog",
-      "dataType":{
-         "tag":"ImageElement"
-      },
-      "data":"data:image/png;base64,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",
-      "dataWidth":128,
-      "dataHeight":128,
-      "createdBy":"Pogly"
-   },
-   {
-      "id":2,
-      "name":"KEKW",
-      "dataType":{
-         "tag":"ImageElement"
-      },
-      "data":"data:image/png;base64,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",
-      "dataWidth":128,
-      "dataHeight":128,
-      "createdBy":"Pogly"
-   },
   {
-      "id":3,
-      "name":"MP4/webm player",
-      "dataType":{
-         "tag":"WidgetElement"
-      },
-      "data":"{\"widgetName\":\"MP4/webm player\",\"widgetWidth\":\"\",\"widgetHeight\":\"\",\"headerTag\":\"\",\"bodyTag\":\"<div class=\\\"container\\\" padding=\\\"0px\\\" margin=\\\"0px\\\">\\n <video id=\\\"video\\\" width=\\\"100%\\\" height=\\\"100%\\\" onloadstart=\\\"this.volume={volume}; if ({play/pause}) this.play();\\\">\\n <source src=\\\"{url}\\\" type=\\\"video/mp4\\\">\\n </video>\\n</div>\",\"styleTag\":\"body {\\n margin: 0;\\n}\\n\\n.container {\\n width: 100vw;\\n height: 100vh;\\n}\",\"scriptTag\":\"var video = document.getElementById('video');\\n\\nif ({loop}) {\\n video.setAttribute(\\\"loop\\\", \\\"loop\\\");\\n}\",\"variables\":[{\"variableName\":\"url\",\"variableType\":1,\"variableValue\":\"\"},{\"variableName\":\"volume\",\"variableType\":1,\"variableValue\":\"0.2\"},{\"variableName\":\"play/pause\",\"variableType\":3,\"variableValue\":false},{\"variableName\":\"loop\",\"variableType\":3,\"variableValue\":false}]}",
-      "dataWidth":400,
-      "dataHeight":200,
-      "createdBy":"Pogly"
-   },
-    {
-        "id": 4,
-      "widgetName":"Youtube Player",
-      "widgetWidth":560,
-      "widgetHeight":315,
-      "headerTag":"",
-      "bodyTag":"<p id=\"error\"></p>\n<div class=\"container\" id=\"player\"></div>",
-      "styleTag":".container{\n  width: 100vw;\n  height:100vh;\n}\n\nbody {\n  margin: 0;\n}",
-      "scriptTag":"var tag = document.createElement('script');\ntag.src = \"https://www.youtube.com/iframe_api\";\n\nvar firstScriptTag = document.getElementsByTagName('script')[0];\nfirstScriptTag.parentNode.insertBefore(tag, firstScriptTag);\n\nvar player;\nvar controls = 0;\nvar playerVars;\nvar subtitles = 0;\n\nconst rawInput = \"{video_id}\";\nconst parsed = parseYouTubeInput(rawInput);\n\n\n\n\nfunction parseYouTubeInput(input) {\n  const result = {\n    videoId: null,\n    playlistId: null,\n    startTime: null,\n    endTime: null,\n    isPlaylist: false,\n    playlistIndex: null\n  };\n\n  // Raw playlist ID (starts with \"PL\", \"UU\", \"RD\", \"OL\", etc.)\n  if (/^(PL|UU|RD|OL)[a-zA-Z0-9_-]+$/.test(input)) {\n    result.playlistId = input;\n    result.isPlaylist = true;\n    return result;\n  }\n\n  // Raw video ID (11 characters)\n  if (/^[a-zA-Z0-9_-]{11}$/.test(input)) {\n    result.videoId = input;\n    return result;\n  }\n\n  // Try parsing as URL\n  try {\n    const parsed = new URL(input);\n    const pathname = parsed.pathname;\n    const searchParams = parsed.searchParams;\n\n    // Video ID extraction\n    if (parsed.hostname.includes(\"youtu.be\")) {\n      result.videoId = pathname.slice(1);\n    } else if (pathname.startsWith(\"/watch\")) {\n      result.videoId = searchParams.get(\"v\");\n    } else if (pathname.startsWith(\"/embed/\")) {\n      result.videoId = pathname.split(\"/embed/\")[1].split(/[/?]/)[0];\n    } else if (pathname.startsWith(\"/v/\")) {\n      result.videoId = pathname.split(\"/v/\")[1].split(/[/?]/)[0];\n    } else if (pathname.startsWith(\"/shorts/\")) {\n      result.videoId = pathname.split(\"/shorts/\")[1].split(/[/?]/)[0];\n    }\n\n    // Playlist ID\n    if (searchParams.has(\"list\")) {\n      result.playlistId = searchParams.get(\"list\");\n      result.isPlaylist = true;\n    }\n\n    // Playlist index\n    if (searchParams.has(\"index\")) {\n      result.playlistIndex = parseInt(searchParams.get(\"index\"));\n    }\n\n    // Start time\n    if (searchParams.has(\"start\")) {\n      result.startTime = parseInt(searchParams.get(\"start\"));\n    } else if (searchParams.has(\"t\")) {\n      result.startTime = parseTimeParam(searchParams.get(\"t\"));\n    }\n\n    // End time\n    if (searchParams.has(\"end\")) {\n      result.endTime = parseInt(searchParams.get(\"end\"));\n    }\n\n  } catch (e) {\n    console.warn(\"Invalid YouTube input:\", input);\n  }\n\n  return result;\n}\n\n// Converts \"1m30s\" or \"90\" to seconds\nfunction parseTimeParam(t) {\n  if (/^\\d+$/.test(t)) return parseInt(t);\n  const match = t.match(/(?:(\\d+)h)?(?:(\\d+)m)?(?:(\\d+)s)?/);\n  if (!match) return null;\n  const hours = parseInt(match[1]) || 0;\n  const minutes = parseInt(match[2]) || 0;\n  const seconds = parseInt(match[3]) || 0;\n  return hours * 3600 + minutes * 60 + seconds;\n}\n\n\n\nfunction onYouTubeIframeAPIReady() {\n  if ({show_controls}) {\n    controls = 1;\n  }\n  else {\n    controls = 0;\n  }\n  \n  if ({subtitles}) {\n    subtitles = 1;\n  }\n  else {\n    subtitles = 0;\n  }\n\n  if (parsed.isPlaylist) {\n    playerVars = {\n      controls: controls,\n      playsinline: 1,\n      listType: 'playlist',\n      list: parsed.playlistId,\n      index: '{playlist_start_video}' || parsed.playlistIndex || 0,\n      cc_load_policy: subtitles\n    };\n  player = new YT.Player('player', {\n    height: '100%',\n    width: '100%',\n    playerVars: playerVars,\n    events: {\n      'onReady': onReady,\n      'onError': onPlayerError\n    }\n  });\n} else {\n  playerVars = {\n    controls: controls,\n    playsinline: 1,\n    cc_load_policy: subtitles,\n    start: '{start_time}' || parsed.startTime || undefined,\n    end: '{end_time}' || parsed.endTime || undefined\n  };\n  player = new YT.Player('player', {\n    height: '100%',\n    width: '100%',\n    videoId: parsed.videoId,\n    playerVars: playerVars,\n    events: {\n      'onReady': onReady,\n      'onError': onPlayerError\n    }\n  });\n}\n}\n\nfunction onReady(event) {\n if ({play/pause}) {\n   showPlayer(true);\n   showError(false);\n   event.target.setVolume({volume});\n   event.target.playVideo();\n }\n}\n\nfunction onPlayerError(event) {\n  switch (event.data) {\n    case 2:\n      showPlayer(false);\n      showError(true);\n      document.getElementById('error').innerText = \"Error: Invalid parameter\"\n      break;\n    case 100:\n      showPlayer(false);\n      showError(true);\n      document.getElementById('error').innerText = \"Error: Video not found or has been removed\"\n      break;\n    case 101:\n    case 150:\n      showPlayer(false);\n      showError(true);\n      document.getElementById('error').innerText = \"Error: Embedding disabled for this video\"\n      break;\n    default:\n      showPlayer(false);\n      showError(true);\n      document.getElementById('error').innerText = \"Error: An unknown error occurred\"\n  }\n}\n\nfunction showPlayer(show) {\n      document.getElementById('player').style.display = show ? \"unset\" : \"none\";\n  }\n  \n  function showError(show) {\n        document.getElementById('error').style.display = show ? \"unset\" : \"none\";\n  }",
-      "variables":[
-         {
-            "variableName":"video_id",
-            "variableType":1,
-            "variableValue":"https://www.youtube.com/watch?v=MR2nB7p9GqI&list=PLWnd-wVH-20D-5Hpt83XtGpEvPLuUpsoU&index=3"
-         },
-         {
-            "variableName":"volume",
-            "variableType":1,
-            "variableValue":"25"
-         },
-         {
-            "variableName":"play/pause",
-            "variableType":3,
-            "variableValue":false
-         },
-         {
-            "variableName":"show_controls",
-            "variableType":2,
-            "variableValue":false
-         },
-         {
-            "variableName":"subtitles",
-            "variableType":2,
-            "variableValue":false
-         },
-         {
-            "variableName":"playlist_start_video",
-            "variableType":1,
-            "variableValue":""
-         },
-         {
-            "variableName":"start_time",
-            "variableType":1,
-            "variableValue":""
-         },
-         {
-            "variableName":"end_time",
-            "variableType":1,
-            "variableValue":""
-         }
-      ]
-   },
-   {
-      "id":5,
-      "name":"Soundboard",
-      "dataType":{
-         "tag":"WidgetElement"
-      },
-      "data":"{\"widgetName\":\"Soundboard\",\"widgetWidth\":\"200\",\"widgetHeight\":\"200\",\"headerTag\":\"\",\"bodyTag\":\"<div class=\\\"container\\\" padding=\\\"0px\\\" margin=\\\"0px\\\">\\n<p>Sound: {name}</p>\\n<p>Active: {play/pause}</p>\\n <video width=\\\"100%\\\" height=\\\"100%\\\" onloadstart=\\\"this.volume={volume}; if ({play/pause}) this.play();\\\">\\n <source src=\\\"{mp3_url}\\\" type=\\\"video/mp4\\\">\\n </video>\\n</div>\",\"styleTag\":\"body {\\n margin: 0;\\n background-color: black;\\n}\\n\\n.container {\\n width: 100vw;\\n height: 100vh;\\n}\\n\\np {\\n color: {color};\\n font-size: 15vw;\\n}\",\"scriptTag\":\"\",\"variables\":[{\"variableName\":\"mp3_url\",\"variableType\":1,\"variableValue\":\"https://www.myinstants.com/media/sounds/wc3-peon-says-work-work-only-.mp3\"},{\"variableName\":\"name\",\"variableType\":1,\"variableValue\":\"work work\"},{\"variableName\":\"color\",\"variableType\":1,\"variableValue\":\"red\"},{\"variableName\":\"volume\",\"variableType\":1,\"variableValue\":\"0.5\"},{\"variableName\":\"play/pause\",\"variableType\":3,\"variableValue\":false}]}",
-      "dataWidth":600,
-      "dataHeight":600,
-      "createdBy":"Pogly"
-   },
-   {
-      "id":5,
-      "name":"Twitch Chat embed",
-      "dataType":{
-         "tag":"WidgetElement"
-      },
-      "data":"{\"widgetName\":\"Twitch Chat\",\"widgetWidth\":400,\"widgetHeight\":600,\"headerTag\":\"\",\"bodyTag\":\"<body>\\n <iframe src=\\\"https://nightdev.com/hosted/obschat?theme=undefined&channel={channel}&fade={fade}&bot_activity={show_bots}&prevent_clipping={prevent_clipping}\\\"></iframe>\\n</body>\",\"styleTag\":\"* {\\n margin: 0;\\n padding: 0;\\n border: 0;\\n }\\n html, body {\\n width: 100%;\\n height: 100%;\\n overflow: hidden;\\n }\\n iframe {\\n width: 100%;\\n height: 100%;\\n border: none;\\n display: block;\\n }\",\"scriptTag\":\"\",\"variables\":[{\"variableName\":\"channel\",\"variableType\":1,\"variableValue\":\"pikabooirl\"},{\"variableName\":\"fade\",\"variableType\":2,\"variableValue\":false},{\"variableName\":\"show_bots\",\"variableType\":2,\"variableValue\":false},{\"variableName\":\"prevent_clipping\",\"variableType\":2,\"variableValue\":false}]}",
-      "dataWidth":600,
-      "dataHeight":600,
-      "createdBy":"Pogly"
-   },
-   {
-      "id":5,
-      "name":"Twitch Chat poll",
-      "dataType":{
-         "tag":"WidgetElement"
-      },
-      "data":"{\"widgetName\":\"Twitch Poll\",\"widgetWidth\":500,\"widgetHeight\":400,\"headerTag\":\"\",\"bodyTag\":\"<iframe src=\\\"https://repo.pogly.gg/poll/?channel={channel}&delay={completedDelay}&specialUser={specialUser}\\\" allowtransparency=\\\"true\\\"></iframe>\",\"styleTag\":\"* {\\n margin: 0;\\n padding: 0;\\n border: 0;\\n overflow: hidden!important;\\n }\\n html, body {\\n width: 100%;\\n height: 100%;\\n overflow: hidden!important;\\n background-color: rgba(0,0,0,0);\\n }\\n iframe {\\n width: 100%;\\n height: 100%;\\n border: none;\\n overflow: hidden!important;\\n display: block;\\n background-color: rgba(0,0,0,0);\\n }\",\"scriptTag\":\"\",\"variables\":[{\"variableName\":\"channel\",\"variableType\":1,\"variableValue\":\"bobross\"},{\"variableName\":\"completedDelay\",\"variableType\":1,\"variableValue\":\"5000\"},{\"variableName\":\"specialUser\",\"variableType\":1,\"variableValue\":\"\"}]}",
-      "dataWidth":600,
-      "dataHeight":600,
-      "createdBy":"Pogly"
-   }
+    "id": 1,
+    "name": "Pog",
+    "dataType": {
+      "tag": "ImageElement"
+    },
+    "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAKOklEQVRYR42XW4wkdRXGz7/uXVXdc9mZ2QjKRSEkghgTNCRGkJCY+ICiRB5JTLzEkKgvgiTqzko0a0TWiBogoMLGeOGBqAlRXkRDQnzwhuGirgR22EvPzvR0d1VXV1XXxd+pYY0mi6Emlb5MdZ3vfOc73zllZscOn7GMiYwxwqs0VSWLRSN62LYtnhVI01rd55bT8V1pLEsq24jw6hhHav5T89fwle0aMd33vOfPcHZHY0s1n0uWzaXIc6mLil+ZwmSPbFZt29q2tX9hVVdSV9yybaTljrbxxbacDoyexnOk4ra1a3dgPCcQPgpXA6DpwFj8VkODXDrotZFFtZBynktZllKXCymKhVSLujHZQ5tJK21sgfrcUdf1a0DImextWwP5Ymzeu660jiOW54oBgO2HHQDlpwGaBjEAaEiiKnMCFSQDQwRtmgZAgAFEwXWLRZmb2QObCd/FWgJqQDCHGzUgVZSFVFUjjjJgXBh3umtAIXlbyawoZTrLSBRG+NODIkI/yTQwyT1qXm2Sq7ne43dNQ+YAaGtYsu3cTL775cSyrdgmK83O1Rpzo6zIqVcm071E8nwui7zqADTESQE2PLsjJ4bbsj1OBYxiueRGEi7aCANPQr8nUc+XIAjEp2wh7x1wKUAN7vFd0OvlZvvonYnrunEYx+IFPvRanZhyguSIZTQay/D0tpx+9bSkk1Tm1G46TeXU9lnZHk0kRbCW64kf9chUhdx29V/qR3JwfUNWV5fEIbHQ98T19gEGlG8QxRKEXm5O3nNH4veCuL80EK8XqF46ALWyCFIVzfD0UE4cf0WG2zsyHSUyBsCIzCfQv6gRmuuIR4DGUuHymSAugg1DX3q9kGw96fdDGfT3WVnqxzJY6r7PzdY370h6URRHg75Yjg0DetJG3FCRtwhSRZRnRVeOIq+7VjrL+8k4ke0zZ2Q2m0maJV3Z0nmqPSdlXnT1thwN3peNg2uyAhtxHMjq8oDvIr2OEnzvcOJ6fqzZGwK7vt8JzSgQakp/8l7FByWIrYUakkTBKL6spJhmMk8zmaRjmWUTGY9Hsre3K0k6oVTTTsTGQsD4QzSI5MCBA7IMgB7stG2dm50HvpZARaz1J5rG6MTUqV2bS+vaAcAnaMkGhasf6GcVk1MpKBqwmiN82quYSzpLZM45mUw6lsYJJZuMaNJWBit9QKxJEBFPGZg+9I3EcdxYTUWPxWuUK5AG6rUrWrJXSzEGNyN9AwhKj1AIDBOG/m4wmrZeoHQ1r30zqvleDWe8tyd7U8BQppLrOqYDPMR19wGQUUwndADm5b5xqJjU1ZQNNSDN3OAR6o5GGQCQGpbalzJQ6+/o+c4FAact53C9iwAbeldLluaZJOhlmxLNygzGrdwkj3wrIWJsaVba5NxMM6+ZCRU3q8jCpmc9N+gE5XCq7Wo58A+kQSYdPwqk6mZJNUeAZKqHr9kCRO+tpGWAHI52ZJSmMlvkuTlz/90JGcYO9GrmFldp1jbnueCqAdcDAE7muqoV7VHcD3CVDhV9vyg4F3TLHD2oDavnF9gyFgwovb+2d8o1GUDnzI28WZTmxaNfTBxKoPZpKbXc1HfwfoI59Lcf4fUEdGyPpG2Y4YeLUmYpYkP9CSJrFq1k86ybA1XFTKA06vttU0qVzzpxusZpVVelTlyMy8ShtJ67a575ymcSJmHs0Ha+OhqnC81qHi5AjO9Iidul85nMoHY0nnbK3qGO8zQnONTD3ILM1LSUQWXGgTWfiRkwl30VcU3TWajDckzjuY3dj14O+oNfmd/f+cnEowvisC9RGNJioKNmSn+C0+2lUzmF758cDmUvmWI2JaaTSz4vuxr3ehGTk/oisoouULpVCygU1wtkOfba9dUDKD8wXi9qcMaKezzHhyNx78DT5u9H707s1sSahZqG3nyc7it1ONrrAp/Z2ZWdZCJzXVZ0nFJ3zVK1okypcHX6afbU6D9tGPhuu7GxZtY31pvltfVsZXn1H/1w8Oezw9FTwyR5/J4nn5yZJ27/dMKyEOvgyfKSLFMZjsdycmcow909mTAJE53ftGWhUw9VqxeoEajytd2YMYJVda8RFg7lrU7AwfKS9NfWJ73l/h8uf/sVTw2W+n9xJnL8zM7O6S8cOzbrxvftl12asCLFJVl1mw71mhZQj5qnzPO5+hVB5gTfNyc1QVrL8rpMQ6L6fB8iUI8T2wJM2w4GsVx4ySVZuLH+2MK2fhANDv5x88EHaf7/PcxXr31PMp1M4uFwRzICZohpip2WOpLVkqljSaCCGufUVfu/m/H4ggaLABChGRYKPmPbNdTQYoOVgbnosstPXvauKz/1T4l+vbm5ib2QwuHDRg4dYsxwU2XgT4e+lKRpGo+hffvsrry09aq8cuqUbOPdmRoSs7tC0RVGUixq7BOK2QMjzyegJSGj1+O6Pk4a4RU2tOhuGK/0zZvf9tZTV117zeeffeHlX372vvsKBXAu8DkezHObdyW+78V9FgQ1FJ35z774ovzthedla+eszAhsNFgYdBrZrz1Usx0FeIXPJ5fyRIAMMSmHtm2gxl+JZP0tF8w2Lrr44a0Tp+/93KOPnmg3Ny0DE/9dBPOb2z6WhOxDB1ZWZXWFdoH2ZDaXV7a25Pl/He8E2Sq9QY/vU8kSpp5uQZTCoeZOi38AgrrDfM2W40vl2a0LgJULLyjC9QM/Yfn8+ie+//Dx8wJ4/JYPMAsk1rrq4hD2euLrTsAxpCSnz466DUgHT0aLZjPdZikFIT3djAFSMfEalpEaV/LZeoKlqLGXQ1m/+KLCXl19dOG4Rz5+5NsvnxfAT2+6LsE2Y3UydUHt68FgIBEZ6xI63ZvK7u6YNRqPJ3MtkzJQqdb0oYPXXOdAXWI2IvHycuuvL7fWIDLW0mBr5YI3HWoa7+c3bW4iqfNo4Ecfuj6p8AHd4xuUHpB9H3cLqPtSGEEv/s9GrIPGt/0OZA0DasM5bGSsXrqSO7GP8Jba/sYaiozNtjH5pMx/dunawbvffdddL50veNcF93/kuqQuSgBgnzR5jznQI7i+xrCw4ke0GS3HoFJWAkBoAy0YPBlayctaSpbRYCVu4o1Vs3A8s81Q2JoXv2MfP3LF1Vc/feWtt5avC+A7N78v4Z+xLhEKwNeHDx0mjM+IuRCj9L4fS8ycUFDYq9jo2HCtPm6xqLTQxaNNKKXrNLt5+eqoqJ5ORH7stu1vbz16VL3sdQ9z9Jb3J7ZYsafPfgTVIaLl6J5cCDRwWKXpb58+95mYWppu23ntWdK4dmv1eqbyg5m9vPzXYZI+NqvML/o3Ols33LAJrf//MPd+9MbCsS0eVMhMn3oJrvXWeV7T932bEmhQXUr02RCMtq7tuj+w6bo9Fwaioe0vPXnpVe84tlPUz7zztts6n38jh7nnw9ePWER6LtmpB5QIUZ+O9aGkmi/Eqx1MBg3w6KUPHDbz3fVgi1eb114/mi2trT9k7P4P3/vBm18y11yzv4u9wePf8s6YTVhIBKUAAAAASUVORK5CYII=",
+    "dataWidth": 128,
+    "dataHeight": 128,
+    "createdBy": "Pogly"
+  },
+  {
+    "id": 2,
+    "name": "KEKW",
+    "dataType": {
+      "tag": "ImageElement"
+    },
+    "data": "data:image/png;base64,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",
+    "dataWidth": 128,
+    "dataHeight": 128,
+    "createdBy": "Pogly"
+  },
+  {
+    "id": 3,
+    "name": "MP4/webm player",
+    "dataType": {
+      "tag": "WidgetElement"
+    },
+    "data": "{\"widgetName\":\"MP4/webm player\",\"widgetWidth\":\"\",\"widgetHeight\":\"\",\"headerTag\":\"\",\"bodyTag\":\"<div class=\\\"container\\\" padding=\\\"0px\\\" margin=\\\"0px\\\">\\n <video id=\\\"video\\\" width=\\\"100%\\\" height=\\\"100%\\\" onloadstart=\\\"this.volume={volume}; if ({play/pause}) this.play();\\\">\\n <source src=\\\"{url}\\\" type=\\\"video/mp4\\\">\\n </video>\\n</div>\",\"styleTag\":\"body {\\n margin: 0;\\n}\\n\\n.container {\\n width: 100vw;\\n height: 100vh;\\n}\",\"scriptTag\":\"var video = document.getElementById('video');\\n\\nif ({loop}) {\\n video.setAttribute(\\\"loop\\\", \\\"loop\\\");\\n}\",\"variables\":[{\"variableName\":\"url\",\"variableType\":1,\"variableValue\":\"\"},{\"variableName\":\"volume\",\"variableType\":1,\"variableValue\":\"0.2\"},{\"variableName\":\"play/pause\",\"variableType\":3,\"variableValue\":false},{\"variableName\":\"loop\",\"variableType\":3,\"variableValue\":false}]}",
+    "dataWidth": 400,
+    "dataHeight": 200,
+    "createdBy": "Pogly"
+  },
+  {
+    "id": 4,
+    "name": "Youtube Player",
+    "dataType": {
+      "tag": "WidgetElement"
+    },
+    "data": "{\"widgetName\":\"Youtube Player\",\"widgetWidth\":560,\"widgetHeight\":315,\"headerTag\":\"\",\"bodyTag\":\"<p id=\\\"error\\\"></p>\\n<div class=\\\"container\\\" id=\\\"player\\\"></div>\",\"styleTag\":\".container{\\n  width: 100vw;\\n  height:100vh;\\n}\\n\\nbody {\\n  margin: 0;\\n}\",\"scriptTag\":\"var tag = document.createElement('script');\\ntag.src = \\\"https://www.youtube.com/iframe_api\\\";\\n\\nvar firstScriptTag = document.getElementsByTagName('script')[0];\\nfirstScriptTag.parentNode.insertBefore(tag, firstScriptTag);\\n\\nvar player;\\nvar controls = 0;\\nvar playerVars;\\nvar subtitles = 0;\\n\\nconst rawInput = \\\"{video_id}\\\";\\nconst parsed = parseYouTubeInput(rawInput);\\n\\nfunction parseYouTubeInput(input) {\\n  const result = {\\n    videoId: null,\\n    playlistId: null,\\n    startTime: null,\\n    endTime: null,\\n    isPlaylist: false,\\n    playlistIndex: null\\n  };\\n\\n  if (/^(PL|UU|RD|OL)[a-zA-Z0-9_-]+$/.test(input)) {\\n    result.playlistId = input;\\n    result.isPlaylist = true;\\n    return result;\\n  }\\n\\n  if (/^[a-zA-Z0-9_-]{11}$/.test(input)) {\\n    result.videoId = input;\\n    return result;\\n  }\\n\\n  try {\\n    const parsed = new URL(input);\\n    const pathname = parsed.pathname;\\n    const searchParams = parsed.searchParams;\\n\\n    if (parsed.hostname.includes(\\\"youtu.be\\\")) {\\n      result.videoId = pathname.slice(1);\\n    } else if (pathname.startsWith(\\\"/watch\\\")) {\\n      result.videoId = searchParams.get(\\\"v\\\");\\n    } else if (pathname.startsWith(\\\"/embed/\\\")) {\\n      result.videoId = pathname.split(\\\"/embed/\\\")[1].split(/[/?]/)[0];\\n    } else if (pathname.startsWith(\\\"/v/\\\")) {\\n      result.videoId = pathname.split(\\\"/v/\\\")[1].split(/[/?]/)[0];\\n    } else if (pathname.startsWith(\\\"/shorts/\\\")) {\\n      result.videoId = pathname.split(\\\"/shorts/\\\")[1].split(/[/?]/)[0];\\n    }\\n\\n    if (searchParams.has(\\\"list\\\")) {\\n      result.playlistId = searchParams.get(\\\"list\\\");\\n      result.isPlaylist = true;\\n    }\\n\\n    if (searchParams.has(\\\"index\\\")) {\\n      result.playlistIndex = parseInt(searchParams.get(\\\"index\\\"));\\n    }\\n\\n    if (searchParams.has(\\\"start\\\")) {\\n      result.startTime = parseInt(searchParams.get(\\\"start\\\"));\\n    } else if (searchParams.has(\\\"t\\\")) {\\n      result.startTime = parseTimeParam(searchParams.get(\\\"t\\\"));\\n    }\\n\\n    if (searchParams.has(\\\"end\\\")) {\\n      result.endTime = parseInt(searchParams.get(\\\"end\\\"));\\n    }\\n\\n  } catch (e) {\\n    console.warn(\\\"Invalid YouTube input:\\\", input);\\n  }\\n\\n  return result;\\n}\\n\\nfunction parseTimeParam(t) {\\n  if (/^\\\\d+$/.test(t)) return parseInt(t);\\n  const match = t.match(/(?:(\\\\d+)h)?(?:(\\\\d+)m)?(?:(\\\\d+)s)?/);\\n  if (!match) return null;\\n  const hours = parseInt(match[1]) || 0;\\n  const minutes = parseInt(match[2]) || 0;\\n  const seconds = parseInt(match[3]) || 0;\\n  return hours * 3600 + minutes * 60 + seconds;\\n}\\n\\nfunction onYouTubeIframeAPIReady() {\\n  if ({show_controls}) {\\n    controls = 1;\\n  }\\n  else {\\n    controls = 0;\\n  }\\n  \\n  if ({subtitles}) {\\n    subtitles = 1;\\n  }\\n  else {\\n    subtitles = 0;\\n  }\\n\\n  if (parsed.isPlaylist) {\\n    playerVars = {\\n      controls: controls,\\n      playsinline: 1,\\n      listType: 'playlist',\\n      list: parsed.playlistId,\\n      index: '{playlist_start_video}' || parsed.playlistIndex || 0,\\n      cc_load_policy: subtitles\\n    };\\n  player = new YT.Player('player', {\\n    height: '100%',\\n    width: '100%',\\n    playerVars: playerVars,\\n    events: {\\n      'onReady': onReady,\\n      'onError': onPlayerError\\n    }\\n  });\\n} else {\\n  playerVars = {\\n    controls: controls,\\n    playsinline: 1,\\n    cc_load_policy: subtitles,\\n    start: '{start_time}' || parsed.startTime || undefined,\\n    end: '{end_time}' || parsed.endTime || undefined\\n  };\\n  player = new YT.Player('player', {\\n    height: '100%',\\n    width: '100%',\\n    videoId: parsed.videoId,\\n    playerVars: playerVars,\\n    events: {\\n      'onReady': onReady,\\n      'onError': onPlayerError\\n    }\\n  });\\n}\\n}\\n\\nfunction onReady(event) {\\n if ({play/pause}) {\\n   showPlayer(true);\\n   showError(false);\\n   event.target.setVolume({volume});\\n   event.target.playVideo();\\n }\\n}\\n\\nfunction onPlayerError(event) {\\n  switch (event.data) {\\n    case 2:\\n      showPlayer(false);\\n      showError(true);\\n      document.getElementById('error').innerText = \\\"Error: Invalid parameter\\\"\\n      break;\\n    case 100:\\n      showPlayer(false);\\n      showError(true);\\n      document.getElementById('error').innerText = \\\"Error: Video not found or has been removed\\\"\\n      break;\\n    case 101:\\n    case 150:\\n      showPlayer(false);\\n      showError(true);\\n      document.getElementById('error').innerText = \\\"Error: Embedding disabled for this video\\\"\\n      break;\\n    default:\\n      showPlayer(false);\\n      showError(true);\\n      document.getElementById('error').innerText = \\\"Error: An unknown error occurred\\\"\\n  }\\n}\\n\\nfunction showPlayer(show) {\\n      document.getElementById('player').style.display = show ? \\\"unset\\\" : \\\"none\\\";\\n  }\\n  \\n  function showError(show) {\\n        document.getElementById('error').style.display = show ? \\\"unset\\\" : \\\"none\\\";\\n  }\",\"variables\":[{\"variableName\":\"video_id\",\"variableType\":1,\"variableValue\":\"https://www.youtube.com/watch?v=MR2nB7p9GqI&list=PLWnd-wVH-20D-5Hpt83XtGpEvPLuUpsoU&index=3\"},{\"variableName\":\"volume\",\"variableType\":1,\"variableValue\":\"25\"},{\"variableName\":\"play/pause\",\"variableType\":3,\"variableValue\":false},{\"variableName\":\"show_controls\",\"variableType\":2,\"variableValue\":false},{\"variableName\":\"subtitles\",\"variableType\":2,\"variableValue\":false},{\"variableName\":\"playlist_start_video\",\"variableType\":1,\"variableValue\":\"\"},{\"variableName\":\"start_time\",\"variableType\":1,\"variableValue\":\"\"},{\"variableName\":\"end_time\",\"variableType\":1,\"variableValue\":\"\"}]}",
+    "dataWidth": 560,
+    "dataHeight": 315,
+    "createdBy": "Pogly"
+  },
+  {
+    "id": 5,
+    "name": "Soundboard",
+    "dataType": {
+      "tag": "WidgetElement"
+    },
+    "data": "{\"widgetName\":\"Soundboard\",\"widgetWidth\":\"200\",\"widgetHeight\":\"200\",\"headerTag\":\"\",\"bodyTag\":\"<div class=\\\"container\\\" padding=\\\"0px\\\" margin=\\\"0px\\\">\\n<p>Sound: {name}</p>\\n<p>Active: {play/pause}</p>\\n <video width=\\\"100%\\\" height=\\\"100%\\\" onloadstart=\\\"this.volume={volume}; if ({play/pause}) this.play();\\\">\\n <source src=\\\"{mp3_url}\\\" type=\\\"video/mp4\\\">\\n </video>\\n</div>\",\"styleTag\":\"body {\\n margin: 0;\\n background-color: black;\\n}\\n\\n.container {\\n width: 100vw;\\n height: 100vh;\\n}\\n\\np {\\n color: {color};\\n font-size: 15vw;\\n}\",\"scriptTag\":\"\",\"variables\":[{\"variableName\":\"mp3_url\",\"variableType\":1,\"variableValue\":\"https://www.myinstants.com/media/sounds/wc3-peon-says-work-work-only-.mp3\"},{\"variableName\":\"name\",\"variableType\":1,\"variableValue\":\"work work\"},{\"variableName\":\"color\",\"variableType\":1,\"variableValue\":\"red\"},{\"variableName\":\"volume\",\"variableType\":1,\"variableValue\":\"0.5\"},{\"variableName\":\"play/pause\",\"variableType\":3,\"variableValue\":false}]}",
+    "dataWidth": 600,
+    "dataHeight": 600,
+    "createdBy": "Pogly"
+  },
+  {
+    "id": 5,
+    "name": "Twitch Chat embed",
+    "dataType": {
+      "tag": "WidgetElement"
+    },
+    "data": "{\"widgetName\":\"Twitch Chat\",\"widgetWidth\":400,\"widgetHeight\":600,\"headerTag\":\"\",\"bodyTag\":\"<body>\\n <iframe src=\\\"https://nightdev.com/hosted/obschat?theme=undefined&channel={channel}&fade={fade}&bot_activity={show_bots}&prevent_clipping={prevent_clipping}\\\"></iframe>\\n</body>\",\"styleTag\":\"* {\\n margin: 0;\\n padding: 0;\\n border: 0;\\n }\\n html, body {\\n width: 100%;\\n height: 100%;\\n overflow: hidden;\\n }\\n iframe {\\n width: 100%;\\n height: 100%;\\n border: none;\\n display: block;\\n }\",\"scriptTag\":\"\",\"variables\":[{\"variableName\":\"channel\",\"variableType\":1,\"variableValue\":\"pikabooirl\"},{\"variableName\":\"fade\",\"variableType\":2,\"variableValue\":false},{\"variableName\":\"show_bots\",\"variableType\":2,\"variableValue\":false},{\"variableName\":\"prevent_clipping\",\"variableType\":2,\"variableValue\":false}]}",
+    "dataWidth": 600,
+    "dataHeight": 600,
+    "createdBy": "Pogly"
+  },
+  {
+    "id": 5,
+    "name": "Twitch Chat poll",
+    "dataType": {
+      "tag": "WidgetElement"
+    },
+    "data": "{\"widgetName\":\"Twitch Poll\",\"widgetWidth\":500,\"widgetHeight\":400,\"headerTag\":\"\",\"bodyTag\":\"<iframe src=\\\"https://repo.pogly.gg/poll/?channel={channel}&delay={completedDelay}&specialUser={specialUser}\\\" allowtransparency=\\\"true\\\"></iframe>\",\"styleTag\":\"* {\\n margin: 0;\\n padding: 0;\\n border: 0;\\n overflow: hidden!important;\\n }\\n html, body {\\n width: 100%;\\n height: 100%;\\n overflow: hidden!important;\\n background-color: rgba(0,0,0,0);\\n }\\n iframe {\\n width: 100%;\\n height: 100%;\\n border: none;\\n overflow: hidden!important;\\n display: block;\\n background-color: rgba(0,0,0,0);\\n }\",\"scriptTag\":\"\",\"variables\":[{\"variableName\":\"channel\",\"variableType\":1,\"variableValue\":\"bobross\"},{\"variableName\":\"completedDelay\",\"variableType\":1,\"variableValue\":\"5000\"},{\"variableName\":\"specialUser\",\"variableType\":1,\"variableValue\":\"\"}]}",
+    "dataWidth": 600,
+    "dataHeight": 600,
+    "createdBy": "Pogly"
+  }
 ]
