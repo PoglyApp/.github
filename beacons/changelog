@@ -459,7 +459,7 @@
           "description": "Added Elements and ElementData IDs to examine context menu boxes."
         },
         {
-          "title": "Export/Import improvements":
+          "title": "Export/Import improvements",
           "description": "Updated import/export functions to use .sqlite file format for increased stability and scaling."
         },
         {
