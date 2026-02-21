@@ -467,6 +467,43 @@
           "description": "Fixed various user reported bugs and issues."
         }
       ]
+    },
+    {
+      "version": "0.3.1",
+      "log": [
+        {
+          "title": "Settings menu rework",
+          "description": "Settings menu has been entirely rewritten in the new UI style."
+        },
+        {
+          "title": "Permissions rework",
+          "description": "Permissions system has been entirely reworked and strict mode and module password has been removed."
+        },
+        {
+          "title": "Background grid",
+          "description": "Added a customizable background grid. This can be toggled from settings."
+        },
+        {
+          "title": "Interplation and optional smoothing for element movement",
+          "description": "Added interpolation and smoothing to element movement to reduce network traffic and updates."
+        },
+        {
+          "title": "Undo system",
+          "description": "Added undo system, allowing you to quickly revert previous actions and bring them back using the ctrl+z, ctrl+y, ctrl+shift+z hotkeys."
+        },
+        {
+          "title": "Grouped element management",
+          "description": "Added support for resizing and rotation grouped elements."
+        },
+        {
+          "title": "Searching improvements",
+          "description": "Added search field for widgets and added widgets to spotlight search."
+        },
+        {
+          "title": "Bug fixes",
+          "description": "Fixed various user reported bugs and issues. (Some have been live for a long time)"
+        }
+      ]
     }
   ]
 }
