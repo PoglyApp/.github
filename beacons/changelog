@@ -500,6 +500,10 @@
           "description": "Added search field for widgets and added widgets to spotlight search."
         },
         {
+          "title": "Direct upload size limit",
+          "description": "Added forced limit on how large images you can directly upload (1,5mb)"
+        },
+        {
           "title": "Bug fixes",
           "description": "Fixed various user reported bugs and issues. (Some have been live for a long time)"
         }
