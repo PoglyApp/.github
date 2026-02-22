@@ -496,6 +496,10 @@
           "description": "Added support for resizing and rotation grouped elements."
         },
         {
+          "title": "User profile pictures",
+          "description": "User profile pictures are now used in connected bubble instead of first letter of their name."
+        },
+        {
           "title": "Searching improvements",
           "description": "Added search field for widgets and added widgets to spotlight search."
         },
