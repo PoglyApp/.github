@@ -512,6 +512,39 @@
           "description": "Fixed various user reported bugs and issues. (Some have been live for a long time)"
         }
       ]
+    },
+    {
+      "version": "0.3.2",
+      "log": [
+        {
+          "title": "Backend upgrade",
+          "description": "Backend has been upgraded to SpacetimeDB 2.0 for improved stability and performance."
+        },
+        {
+          "title": "Global Module",
+          "description": "Modules can now be published directly from within the app."
+        },
+        {
+          "title": "",
+          "description": "Modules can be deleted in-app."
+        },
+        {
+          "title": "",
+          "description": "Modules can be renamed in-app."
+        },
+        {
+          "title": "",
+          "description": "Added global access information — controls which instances are visible and discoverable."
+        },
+        {
+          "title": "",
+          "description": "Added publish cooldown to prevent spam. Trusted users can be added to a cooldown bypass whitelist."
+        },
+        {
+          "title": "",
+          "description": "Added system messages."
+        }
+      ]
     }
   ]
 }
