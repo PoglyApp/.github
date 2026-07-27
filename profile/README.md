@@ -10,21 +10,15 @@
 
 <p align="center">
     <a href="https://github.com/microsoft/TypeScript"><img src="https://img.shields.io/badge/built_with-TypeScript-2F74C0.svg?style=flat-square"><img src="https://img.shields.io/badge/CSharp-6C287D.svg?style=flat-square" /></a>
-    &nbsp;
     <a href="https://spacetimedb.com/?referral=Lethalchip"><img src="https://img.shields.io/badge/powered_by-SpacetimeDB-000000.svg?style=flat-square" /></a>
-    &nbsp;
 	<img src="https://img.shields.io/github/v/release/poglyapp/pogly-standalone?color=9f9f9f&include_prereleases&label=version&sort=semver&style=flat-square" />
-    &nbsp;
     <a href="https://github.com/PoglyApp/pogly-standalone/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-50C878.svg?style=flat-square" /></a>
 </p>
 
 <p align="center">
     <a href="https://discord.gg/pogly"><img height="25" src="./images/social/discord.svg" alt="Discord" /></a>
-    &nbsp;
     <a href="https://www.twitch.tv/poglygg"><img height="25" src="./images/social/twitch.svg" alt="Twitch" /></a>
-    &nbsp;
     <a href="https://www.youtube.com/@PoglyApp"><img height="25" src="./images/social/youtube.svg" alt="YouTube" /></a>
-    &nbsp;
     <a href="https://x.com/PoglyApp"><img height="25" src="./images/social/twitter.svg" alt="Twitter" /></a>
 </p>
 
